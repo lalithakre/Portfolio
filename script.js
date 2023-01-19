@@ -1,3 +1,5 @@
+window.confirm("Personal Portfolio of Lalit Thakre");
+// alert('This website is created by Lalit Thakre');
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -35,16 +37,16 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Programmer", "Developer"],
-        typeSpeed: 80,
-        backSpeed: 50,
+        strings: ["Programmer", "Web developer","Application developer"],
+        typeSpeed: 200,
+        backSpeed: 200,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
         strings: ["Programmer", "Developer"],
-        typeSpeed: 80,
-        backSpeed: 50,
+        typeSpeed: 200,
+        backSpeed: 200,
         loop: true
     });
 
