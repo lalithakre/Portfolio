@@ -447,6 +447,9 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+.certificate .title::after{
+    content: "Tech skills certifications ";
+}
 
 /* contact section styling */
 .contact .title::after{
