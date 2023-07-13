@@ -165,7 +165,6 @@ section .title::after{
 .home{
     display: flex;
     background: url("images/1.jpeg");
- 
     height: 98vh;
     color:whitesmoke;
     min-height: 500px;
@@ -179,6 +178,9 @@ section .title::after{
 }
 .home .max-width .row{
   margin-right: 0;
+}
+.home .home-content {
+    margin-top: 50px;
 }
 .home .home-content .text-1{
     font-size: 27px;
