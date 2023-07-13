@@ -391,6 +391,7 @@ section .title::after{
 /* teams section styling */
 .teams .title::after{
     content: "What I have developed";
+    background-color: white;
 }
 .teams .carousel .card{
     background: #222;
