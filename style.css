@@ -180,7 +180,7 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -214,7 +214,13 @@ section .title::after{
     color: crimson;
     background: none;
 }
+/* experience section styling */
+.experience .title::after{
+    content: "what I have done";
+}
 
+
+  
 /* about section styling */
 .about .title::after{
     content: "who I am";
