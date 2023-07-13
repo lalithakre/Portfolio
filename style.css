@@ -219,7 +219,89 @@ section .title::after{
     content: "what I have done";
 }
 
-
+.experience {
+    padding: 80px 0;
+  }
+  
+  .max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .experience-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px;
+  }
+  
+  .experience-item img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+  }
+  
+  .experience-details {
+    flex: 1;
+  }
+  
+  .experience-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color:black;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  
+  .experience-details h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .experience-details p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  .experience-details h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+  
+  /* Media queries */
+  
+  @media screen and (max-width: 768px) {
+    .experience-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .experience-item img {
+      margin-bottom: 20px;
+    }
+  }
   
 /* about section styling */
 .about .title::after{
