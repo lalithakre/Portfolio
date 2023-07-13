@@ -257,6 +257,7 @@ section .title::after{
     background: none;
 }
 
+
 /* services section styling */
 .services, .teams{
     color:#fff;
@@ -447,9 +448,96 @@ section .title::after{
 .owl-dot:hover{
     background: crimson!important;
 }
+
+/* certificate section styling */
+
 .certificate .title::after{
-    content: "Tech skills certifications ";
+    content: "Tech skills ";
 }
+
+.certificate .certificate-content .box{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    background: #222;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.certificate .certificate-content .box:hover{
+    transform: scale(1.05);
+}
+
+.certificate .certificate-content .box .cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(200px);
+    transition: all 0.3s ease;
+}
+
+.certificate .certificate-content .box:hover .cover{
+    transform: translateY(0);
+}
+
+/* gal`lery section styling */
+
+.gallery .title::after{
+    content: "My Gallery";
+}
+
+/* CSS for Image Gallery */
+
+.gallery {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+  }
+  
+  .max-width {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .gallery-content {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    display: flex;
+    animation: marquee 20s linear infinite;
+  }
+  
+  .image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
 
 /* contact section styling */
 .contact .title::after{
